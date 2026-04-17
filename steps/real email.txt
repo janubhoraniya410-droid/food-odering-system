@@ -1,0 +1,45 @@
+
+
+To check if an email is real (e.g., with DNS or SMTP ping), you'd need external APIs like:
+
+NeverBounce
+
+ZeroBounce
+
+we use neverbounce
+
+login neverbounce 
+
+STEP 1: Get Your API Key
+Click on your initials (JB) at the top-right corner of the screen.
+
+Select "API Settings" or go directly to:
+👉 https://app.neverbounce.com/settings/api
+
+Copy your API key shown there (e.g., public_xxx).
+
+Click “Custom Integration” from the options.
+
+A new page will open.
+
+There, you'll be asked to name your app (e.g., PHP Registration).
+
+Once you submit, it will generate your API Key.
+
+Next Step:
+Click on “PHP Registration”, and on the next page, you will see your API Key.
+
+Your API Key =   private_a7749b2efc32bdbe4cb462948783c3c5
+
+
+
+
+
+✅ 1. Install the NeverBounce PHP SDK via Composer
+Open terminal in your project folder and run:
+
+bash
+Copy
+Edit
+composer require neverbounce/neverbounce-php
+
